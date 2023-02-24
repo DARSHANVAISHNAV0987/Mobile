@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity2"
+    android:background="@color/colorAccent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/emailTV"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="your email"
+            android:layout_margin="30dp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="First Name"
+            android:background="@null"
+            android:layout_marginBottom="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextFirst" />
+
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="30dp"
+            android:hint="Last Name"
+            android:background="@null"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextFirst" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="30dp"
+            android:hint="Phone no."
+            android:background="@null"
+            android:inputType="number"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextFirst" />
+
+        <EditText
+            android:id="@+id/PU_ID"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="30dp"
+            android:hint="Driver's/PU ID"
+            android:background="@null"
+            android:inputType="number"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextFirst" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:width="250dp"
+            android:layout_marginBottom="30dp"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
